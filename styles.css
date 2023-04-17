@@ -1,19 +1,28 @@
-
-.flex-container {display:flex;
+body {
+    display:flex;
     flex-direction:column;
-}
-
-.title {display:flex;
-    color:blueviolet;
-    background-color: blanchedalmond;
     justify-content:center;
-    font-size: larger;
-   margin-left: 550px;
-   margin-right: 550px;
+    align-items:center;
 }
 
-.buttons {display:flex;
-    justify-content:space-around;
-    
+.header {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    margin:20px;
+}
 
+.footer {
+    display:flex;
+    justify-content:space-around;
+    gap: 80px;
+    margin:20px;
+}
+
+.board {
+    width:500px;
+    height:500px;
+    display: grid;
+    border: 5px solid black;
+    margin:20px;
 }

@@ -1,0 +1,19 @@
+
+.flex-container {display:flex;
+    flex-direction:column;
+}
+
+.title {display:flex;
+    color:blueviolet;
+    background-color: blanchedalmond;
+    justify-content:center;
+    font-size: larger;
+   margin-left: 550px;
+   margin-right: 550px;
+}
+
+.buttons {display:flex;
+    justify-content:space-around;
+    
+
+}
